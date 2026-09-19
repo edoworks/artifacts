@@ -6,7 +6,7 @@
 - Generalization: migrated the standalone public templates and skill into the
   shared artifact repository without adding factory-private state or tooling.
 - License: MIT, preserved from the source repository.
-- Review: source contents were inspected directly; compatibility and release
-  approval remain outstanding.
+- Review: source contents, manifest, archive, and checksum assets were inspected
+  before release.
 - Boundary: this candidate is not a publication, installer, authorization,
   orchestration, or security authority.

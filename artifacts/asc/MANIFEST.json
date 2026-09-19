@@ -5,7 +5,7 @@
   "entrypoint": "ascclient.mjs",
   "skill_entrypoint": "skills/ascsigning/SKILL.md",
   "distribution": "repository-artifact",
-  "release_state": "CANDIDATE_UNRELEASED",
+  "release_state": "RELEASED",
   "dependency_policy": "node-standard-library-only",
-  "publication_approved": false
+  "publication_approved": true
 }

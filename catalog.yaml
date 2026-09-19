@@ -14,11 +14,11 @@ artifacts:
     tag: constitution/v1.0.0
     license: MIT
     distribution: github-release-assets
-    status: candidate-unreleased
+    status: released
   - id: asc
     version: 1.0.0
     path: artifacts/asc
     tag: asc/v1.0.0
     license: MIT
     distribution: github-release-assets
-    status: candidate-unreleased
+    status: released

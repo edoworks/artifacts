@@ -5,7 +5,7 @@
   "entrypoint": "templates/constitution.json.template",
   "skill_entrypoint": "skills/constitution/SKILL.md",
   "distribution": "repository-artifact",
-  "release_state": "CANDIDATE_UNRELEASED",
+  "release_state": "RELEASED",
   "dependency_policy": "templates-and-markdown-only",
-  "publication_approved": false
+  "publication_approved": true
 }

@@ -6,7 +6,7 @@
   action, and skill into the shared artifact repository without credentials or
   private product data.
 - License: MIT, preserved from the source repository.
-- Review: source contents were inspected directly; compatibility, security, and
-  release approval remain outstanding.
+- Review: source contents, JavaScript syntax, manifest, archive, and checksum
+  assets were inspected before release.
 - Boundary: this candidate is not a credential store, signing authority,
   publication service, or Apple authorization boundary.
