@@ -11,10 +11,10 @@ capability, what evidence to collect, and which decisions are allowed. It does
 not authorize installation, publication, upstream contribution, or external
 execution.
 
-`reuse_gate.py` is independently usable without sf0.8. The factory keeps a
-separate implementation because its richer evaluator also handles provenance,
-security, and contribution classification; the package contract is tested
-against the same boundary cases without importing factory code.
+`reuse_gate.py` is independently usable. The source project keeps a separate
+implementation because its richer evaluator also handles provenance, security,
+and contribution classification; this package contract is tested against the
+same boundary cases without importing private source code.
 
 ## Versioned consumption
 
