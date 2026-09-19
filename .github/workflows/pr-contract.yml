@@ -1,0 +1,33 @@
+name: Pull request contract
+
+on:
+  pull_request:
+    types: [opened, edited, synchronize, reopened]
+
+permissions:
+  contents: read
+  pull-requests: read
+
+jobs:
+  contract:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Require the review record
+        env:
+          BODY: ${{ github.event.pull_request.body }}
+        run: |
+          test -n "$BODY" || { echo "PR body is required"; exit 1; }
+          for section in "## Change summary" "## Verification" "## Rubber-duck review" "## Merge readiness"; do
+            printf '%s\n' "$BODY" | grep -Fqx "$section" || {
+              echo "missing required section: $section"
+              exit 1
+            }
+          done
+          printf '%s\n' "$BODY" | grep -Fq -- '- [x] I walked through the changed files' || {
+            echo "rubber-duck review checkbox must be checked"
+            exit 1
+          }
+          printf '%s\n' "$BODY" | grep -Fq -- 'Review result:' || {
+            echo "review result must be recorded"
+            exit 1
+          }
