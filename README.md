@@ -6,11 +6,14 @@ Versioned, reusable artifacts from Edoworks.
 
 | Artifact | Version | Download | License |
 | --- | --- | --- | --- |
-| [proportional-reuse-gate](artifacts/proportional-reuse-gate/) | 1.0.0 | [Release assets](https://github.com/edoworks/artifacts/releases/tag/proportional-reuse-gate%2Fv1.0.0) | Apache-2.0 |
+| [proportional-reuse-gate](artifacts/proportional-reuse-gate/) | 1.1.0 | [Release assets](https://github.com/edoworks/artifacts/releases/tag/reusefirst%2Fv1.1.0) | Apache-2.0 |
 
 Each artifact is independently versioned. Releases use immutable SemVer tags
 and include checksums and a manifest so consumers can download a specific
 version without cloning the repository.
+
+The agent-facing skill in the current release is named `reusefirst`. The
+artifact ID remains `proportional-reuse-gate` for compatibility.
 
 ## Scope
 

@@ -2,9 +2,9 @@ schema_version: 1
 repository: edoworks/artifacts
 artifacts:
   - id: proportional-reuse-gate
-    version: 1.0.0
+    version: 1.1.0
     path: artifacts/proportional-reuse-gate
-    tag: proportional-reuse-gate/v1.0.0
+    tag: reusefirst/v1.1.0
     license: Apache-2.0
     distribution: github-release-assets
     status: validated-candidate

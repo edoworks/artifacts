@@ -10,11 +10,11 @@ ROOT = Path(__file__).parents[1]
 class SkillContractTests(unittest.TestCase):
     def test_skill_has_valid_frontmatter_and_boundaries(self):
         skill = (ROOT / "SKILL.md").read_text(encoding="utf-8")
-        self.assertRegex(skill, r"\A---\nname: proportional-reuse-gate\n")
+        self.assertRegex(skill, r"\A---\nname: reusefirst\n")
         self.assertIn("description:", skill)
         self.assertIn("Never install, execute, publish, release, or upstream", skill)
         self.assertIn("Unknown licensing is a blocker", skill)
-        self.assertRegex(skill, r"(?m)^---\n\n# Proportional Reuse Gate\n")
+        self.assertRegex(skill, r"(?m)^---\n\n# Reuse First\n")
 
     def test_examples_are_complete_and_deterministic(self):
         cases = json.loads((ROOT / "examples/decision-cases.json").read_text(encoding="utf-8"))

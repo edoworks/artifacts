@@ -1,5 +1,5 @@
 ---
-name: proportional-reuse-gate
+name: reusefirst
 description: Require evidence-backed reuse discovery before building new agent or software capability, and classify the result without granting publication authority.
 license: Apache-2.0
 compatibility: Any agent that can inspect repository metadata and record a decision
@@ -8,7 +8,7 @@ metadata:
   workflow: reuse-before-build
 ---
 
-# Proportional Reuse Gate
+# Reuse First
 
 Use this skill before substantial implementation, package extraction, workflow
 creation, or agent-skill authoring.
