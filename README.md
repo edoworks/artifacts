@@ -7,8 +7,8 @@ Versioned, reusable artifacts from Edoworks.
 | Artifact | Version | Download | License |
 | --- | --- | --- | --- |
 | [reusefirst](artifacts/reusefirst/) | 1.2.0 | [Release assets](https://github.com/edoworks/artifacts/releases/tag/reusefirst%2Fv1.2.0) | Apache-2.0 |
-| [factory-constitution](artifacts/factory-constitution/) | 1.0.0 | Candidate, not released | MIT |
-| [asc-client](artifacts/asc-client/) | 1.0.0 | Candidate, not released | MIT |
+| [constitution](artifacts/constitution/) | 1.0.0 | Candidate, not released | MIT |
+| [asc](artifacts/asc/) | 1.0.0 | Candidate, not released | MIT |
 
 Each artifact is independently versioned. Releases use immutable SemVer tags
 and include checksums and a manifest so consumers can download a specific

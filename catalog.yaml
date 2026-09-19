@@ -8,17 +8,17 @@ artifacts:
     license: Apache-2.0
     distribution: github-release-assets
     status: validated-candidate
-  - id: factory-constitution
+  - id: constitution
     version: 1.0.0
-    path: artifacts/factory-constitution
-    tag: factory-constitution/v1.0.0
+    path: artifacts/constitution
+    tag: constitution/v1.0.0
     license: MIT
     distribution: github-release-assets
     status: candidate-unreleased
-  - id: asc-client
+  - id: asc
     version: 1.0.0
-    path: artifacts/asc-client
-    tag: asc-client/v1.0.0
+    path: artifacts/asc
+    tag: asc/v1.0.0
     license: MIT
     distribution: github-release-assets
     status: candidate-unreleased
