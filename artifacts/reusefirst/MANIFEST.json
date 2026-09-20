@@ -1,7 +1,7 @@
 {
   "artifact": "reusefirst",
-  "version": "1.2.0",
-  "source_revision": "issue-31-working-tree",
+  "version": "1.2.1",
+  "source_revision": "30e588b4dc0d869da9b58a01d91c22d6f4931361",
   "entrypoint": "reuse_gate.py",
   "skill_entrypoint": "SKILL.md",
   "distribution": "repository-artifact",
