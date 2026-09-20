@@ -5,7 +5,7 @@
   "entrypoint": "reuse_gate.py",
   "skill_entrypoint": "SKILL.md",
   "distribution": "repository-artifact",
-  "release_state": "CANDIDATE_UNRELEASED",
+  "release_state": "RELEASED",
   "dependency_policy": "stdlib-only",
-  "publication_approved": false
+  "publication_approved": true
 }
