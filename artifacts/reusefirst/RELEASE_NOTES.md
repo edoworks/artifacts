@@ -1,8 +1,8 @@
 # Release Notes
 
-## v1.2.0
+## v1.2.1 (unreleased)
 
 - Reconciled the manifest source revision with the immutable artifact revision.
-- Recorded release state and publication approval after deterministic tests and
-  Customer Zero dogfood by the factory and its product workflows.
+- Kept the candidate unreleased pending canonical publication approval and a
+  separately reviewable release process.
 - Kept the contract dependency-free and unchanged.
