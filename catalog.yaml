@@ -2,12 +2,12 @@ schema_version: 1
 repository: edoworks/artifacts
 artifacts:
   - id: reusefirst
-    version: 1.2.0
+    version: 1.2.1
     path: artifacts/reusefirst
-    tag: reusefirst/v1.2.0
+    tag: reusefirst/v1.2.1
     license: Apache-2.0
     distribution: github-release-assets
-    status: validated-candidate
+    status: released
   - id: constitution
     version: 1.0.0
     path: artifacts/constitution

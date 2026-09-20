@@ -6,7 +6,7 @@ Versioned, reusable artifacts from Edoworks.
 
 | Artifact | Version | Download | License |
 | --- | --- | --- | --- |
-| [reusefirst](artifacts/reusefirst/) | 1.2.0 | [Release assets](https://github.com/edoworks/artifacts/releases/tag/reusefirst%2Fv1.2.0) | Apache-2.0 |
+| [reusefirst](artifacts/reusefirst/) | 1.2.1 | [Release assets](https://github.com/edoworks/artifacts/releases/tag/reusefirst%2Fv1.2.1) | Apache-2.0 |
 | [constitution](artifacts/constitution/) | 1.0.0 | [Release assets](https://github.com/edoworks/artifacts/releases/tag/constitution%2Fv1.0.0) | MIT |
 | [asc](artifacts/asc/) | 1.0.0 | [Release assets](https://github.com/edoworks/artifacts/releases/tag/asc%2Fv1.0.0) | MIT |
 
