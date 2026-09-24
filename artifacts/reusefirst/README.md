@@ -19,10 +19,11 @@ same boundary cases without importing private source code.
 ## Versioned consumption
 
 `MANIFEST.json` is the traceable distribution boundary. Consumers pin the
-artifact id, semantic version, source revision, and checksum instead of relying
-on an unversioned source path. This is intentionally a repository-visible,
-dependency-free mechanism; a registry is not justified by the current two-
-consumer trial.
+artifact id, semantic version, source provenance revision, and exact release
+tag instead of relying on an unversioned source path. The current release does
+not provide an attached checksum asset. This is intentionally a repository-
+visible, dependency-free mechanism; a registry is not justified by the current
+two-consumer trial.
 
 ## Evaluation
 
