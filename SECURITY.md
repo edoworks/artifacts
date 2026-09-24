@@ -24,4 +24,6 @@ security, or release decisions.
 ## Maintenance
 
 The repository maintainers own release review, issue triage, and security
-response. Releases are immutable; corrections use a new version.
+response. Release records state their observed immutability; current releases
+are mutable. Corrections use a new version rather than rewriting an existing
+artifact version.
